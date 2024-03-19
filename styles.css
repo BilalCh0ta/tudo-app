@@ -1,5 +1,147 @@
-#answer{
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    background-color: rgba(0, 0, 0, 0.929);
+}
+h1{
+    color: wheat;
+    text-align: center;
+}
+.container{
+    width: 27%;
+    background-image:url('assets/main.avif') ;
+    background-repeat: repeat-x;
+    box-shadow: -3px  3px 5px  orangered , 3px -3px 5px rgb(67, 67, 67);
+
+    height: 33rem;
+    margin: auto;
+    margin-top: 3.5rem;
+    padding: 1rem 0.4rem;
+    text-align: center;
+}
+
+input{
+    width: 70%;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    color: orangered;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 5px orangered; */
+
+}
+
+
+.print{
+    width: 20%;
+    padding: 0.4rem;
+    border: 0px;
+    font-size: 1.2rem;
+    background-color: orangered ;
+    border-radius: 5px;
+
+}
+
+:hover.print{
+    background-color: rgba(255, 68, 0, 0.258);
+    border: 1px solid rgb(84, 84, 84);
+}
+
+
+.s{
+    margin-top: 5rem; 
+text-align: center;
+background-color: orangered ;
+padding: .5rem 0rem;
+display: none;
+    
+}
+
+.ans{
+    background-color: rgb(173, 173, 173);
+    width: 92%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 0.38rem;  
+}
+
+.del{
+    width: 22.5%;
+    padding: 0.5rem 0rem;
+    background-color: gray;
+    margin-right: 5px;
+border-radius: 5px;
+    border: none;
+
+}
+:hover.del{
+    background-color: rgba(128, 128, 128, 0.321);
+    border: 1px solid orange;
+
+}
+
+.edit{
+    width: 22.5%;
+    padding: 0.5rem 0rem;
+    background-color: gray;
+    margin-right: 5px;
+border-radius: 5px;
+    border: none;
+
+}
+:hover.edit{
+    background-color: rgba(128, 128, 128, 0.321);
+    border: 1px solid orange;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #answer{
     border: 1px solid green;
     padding: 0.1rem 4rem;
 
 }
+
+#answer2{
+    border: 1px solid green;
+    padding: 0.1rem 4rem;
+
+}
+
+.output{
+    display: none;
+    background-color: red;
+} */
